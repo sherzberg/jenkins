@@ -1,3 +1,7 @@
+# new
+ec2:1.48
+
+# current
 ant:1.10
 
 hsts-filter-plugin:1.0
