@@ -3,7 +3,7 @@ ec2:1.48
 
 
 # current
-ant:1.10
+ant:1.11
 
 hsts-filter-plugin:1.0
 
@@ -18,14 +18,14 @@ job-dsl
 ssh-agent
 timestamper
 
-script-security:1.67
+script-security:1.68
 
 google-login:1.6
 mailer:1.29
 display-url-api:2.3.2
 junit:1.28
 
-parameterized-trigger:2.35.2
+parameterized-trigger:2.36
 matrix-project:1.14
 matrix-auth:2.5
 conditional-buildstep:1.3.6
@@ -37,8 +37,8 @@ rebuild
 
 pam-auth:1.6
 credentials-binding:1.20
-workflow-step-api:2.20
-credentials:2.3.0
+workflow-step-api:2.22
+credentials:2.3.1
 plain-credentials:1.5
 structs:1.20
 
