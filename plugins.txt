@@ -21,7 +21,7 @@ timestamper
 script-security:1.68
 
 google-login:1.6
-mailer:1.29
+mailer:1.30
 display-url-api:2.3.2
 junit:1.28
 
