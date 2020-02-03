@@ -1,10 +1,10 @@
 # https://hub.docker.com/r/jenkins/jenkins/tags/
-FROM jenkins/jenkins:2.214-alpine
+FROM jenkins/jenkins:2.219-alpine
 
 USER root
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh gettext make docker
+    apk add --no-cache bash git openssh gettext make
 
 # Allow the jenkins user to run docker
 RUN adduser jenkins docker
