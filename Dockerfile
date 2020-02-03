@@ -4,7 +4,7 @@ FROM jenkins/jenkins:2.219-alpine
 USER root
 
 RUN apk update && apk upgrade && \
-    apk add --no-cache bash git openssh gettext make
+    apk add --no-cache bash git openssh gettext make docker
 
 # Allow the jenkins user to run docker
 RUN adduser jenkins docker
